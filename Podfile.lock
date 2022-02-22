@@ -1,0 +1,28 @@
+PODS:
+  - OpenCV (4.3.0)
+  - SFRemoteImage (1.0.0)
+
+DEPENDENCIES:
+  - OpenCV (= 4.3.0)
+  - SFRemoteImage (from `https://github.com/SaifullahIlyas/SFRemoteImage.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - OpenCV
+
+EXTERNAL SOURCES:
+  SFRemoteImage:
+    :git: https://github.com/SaifullahIlyas/SFRemoteImage.git
+
+CHECKOUT OPTIONS:
+  SFRemoteImage:
+    :commit: 4e2009ca92459f0914e2a2317e89d96f54118209
+    :git: https://github.com/SaifullahIlyas/SFRemoteImage.git
+
+SPEC CHECKSUMS:
+  OpenCV: 681e0451c1e54c5930a8922277f817ed5d5ab459
+  SFRemoteImage: 08f747667fc29ec9506ed137b724c7a94ed3e98d
+
+PODFILE CHECKSUM: 22cbcfb63eb30f4c9c4303ac554eff8d77b77afc
+
+COCOAPODS: 1.11.2

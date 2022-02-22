@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48B0EEB9D8A005779C6E7CA0 /* Pods_PageCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F115252B1BD7910FC6D59 /* Pods_PageCapture.framework */; };
+		5DBF564C4D6716AD64738975 /* Pods_PageCaptureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF889619A4FB91C4DB02201D /* Pods_PageCaptureTests.framework */; };
+		B1F427E8E6E49A95B0E4BC13 /* Pods_PageCapture_PageCaptureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7110EBFB8154A26BC6EEE7C7 /* Pods_PageCapture_PageCaptureUITests.framework */; };
+		BB39305F27BCD238009DDD40 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB39305E27BCD238009DDD40 /* OpenCVWrapper.mm */; };
+		BB99992227BF6355002EB1F2 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99992127BF6355002EB1F2 /* UIImage+Extension.swift */; };
+		BBB6984727C4C5B7009CF2C5 /* imageReturnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB6984627C4C5B7009CF2C5 /* imageReturnModel.m */; };
 		BBB725B327BC221B008465CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB725B227BC221B008465CF /* AppDelegate.swift */; };
 		BBB725B527BC221B008465CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB725B427BC221B008465CF /* SceneDelegate.swift */; };
 		BBB725B727BC221B008465CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB725B627BC221B008465CF /* ViewController.swift */; };
@@ -17,6 +23,8 @@
 		BBB725CD27BC221E008465CF /* PageCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB725CC27BC221E008465CF /* PageCaptureTests.swift */; };
 		BBB725D727BC221E008465CF /* PageCaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB725D627BC221E008465CF /* PageCaptureUITests.swift */; };
 		BBB725D927BC221E008465CF /* PageCaptureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB725D827BC221E008465CF /* PageCaptureUITestsLaunchTests.swift */; };
+		BBE72A9A27C20A7E0038B7AA /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBE72A9227C20A7D0038B7AA /* UIImage+OpenCV.mm */; };
+		BBE72A9C27C20A7F0038B7AA /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE72A9827C20A7E0038B7AA /* UIImage+Rotate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30FBAF6FE988C905109B0CD0 /* Pods-PageCapture-PageCaptureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageCapture-PageCaptureUITests.release.xcconfig"; path = "Target Support Files/Pods-PageCapture-PageCaptureUITests/Pods-PageCapture-PageCaptureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7110EBFB8154A26BC6EEE7C7 /* Pods_PageCapture_PageCaptureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageCapture_PageCaptureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BC81FCBAF7E547777252DF /* Pods-PageCapture-PageCaptureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageCapture-PageCaptureUITests.debug.xcconfig"; path = "Target Support Files/Pods-PageCapture-PageCaptureUITests/Pods-PageCapture-PageCaptureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BF9417710617BEDAEC89E68 /* Pods-PageCaptureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageCaptureTests.release.xcconfig"; path = "Target Support Files/Pods-PageCaptureTests/Pods-PageCaptureTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D3F115252B1BD7910FC6D59 /* Pods_PageCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F55E7D88A809B03869B10E /* Pods-PageCapture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageCapture.debug.xcconfig"; path = "Target Support Files/Pods-PageCapture/Pods-PageCapture.debug.xcconfig"; sourceTree = "<group>"; };
+		AF889619A4FB91C4DB02201D /* Pods_PageCaptureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageCaptureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B362F8576BD0ED8B5395667F /* Pods-PageCaptureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageCaptureTests.debug.xcconfig"; path = "Target Support Files/Pods-PageCaptureTests/Pods-PageCaptureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB39305D27BCD238009DDD40 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		BB39305E27BCD238009DDD40 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		BB99992127BF6355002EB1F2 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		BBB6984527C4C5B7009CF2C5 /* imageReturnModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imageReturnModel.h; sourceTree = "<group>"; };
+		BBB6984627C4C5B7009CF2C5 /* imageReturnModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imageReturnModel.m; sourceTree = "<group>"; };
 		BBB725AF27BC221B008465CF /* PageCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB725B227BC221B008465CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBB725B427BC221B008465CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +72,16 @@
 		BBB725D227BC221E008465CF /* PageCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB725D627BC221E008465CF /* PageCaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCaptureUITests.swift; sourceTree = "<group>"; };
 		BBB725D827BC221E008465CF /* PageCaptureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCaptureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BBB725E727BC25EC008465CF /* PageCapture-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PageCapture-Bridging-Header.h"; sourceTree = "<group>"; };
+		BBB725FA27BCC11A008465CF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BBB725FB27BCC11A008465CF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BBB725FC27BCC11A008465CF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		BBE72A9227C20A7D0038B7AA /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		BBE72A9527C20A7E0038B7AA /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		BBE72A9727C20A7E0038B7AA /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		BBE72A9827C20A7E0038B7AA /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		BBE72AA327C21E180038B7AA /* OpenCVSwiftLineDetection.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVSwiftLineDetection.pch; sourceTree = "<group>"; };
+		E581133CF7EFF213CAF1ADEB /* Pods-PageCapture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageCapture.release.xcconfig"; path = "Target Support Files/Pods-PageCapture/Pods-PageCapture.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B0EEB9D8A005779C6E7CA0 /* Pods_PageCapture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBF564C4D6716AD64738975 /* Pods_PageCaptureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +105,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F427E8E6E49A95B0E4BC13 /* Pods_PageCapture_PageCaptureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DEAF7641FE9F3EAD450D949 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99F55E7D88A809B03869B10E /* Pods-PageCapture.debug.xcconfig */,
+				E581133CF7EFF213CAF1ADEB /* Pods-PageCapture.release.xcconfig */,
+				73BC81FCBAF7E547777252DF /* Pods-PageCapture-PageCaptureUITests.debug.xcconfig */,
+				30FBAF6FE988C905109B0CD0 /* Pods-PageCapture-PageCaptureUITests.release.xcconfig */,
+				B362F8576BD0ED8B5395667F /* Pods-PageCaptureTests.debug.xcconfig */,
+				8BF9417710617BEDAEC89E68 /* Pods-PageCaptureTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95AD116FA613AEE6987363F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D3F115252B1BD7910FC6D59 /* Pods_PageCapture.framework */,
+				7110EBFB8154A26BC6EEE7C7 /* Pods_PageCapture_PageCaptureUITests.framework */,
+				AF889619A4FB91C4DB02201D /* Pods_PageCaptureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BBB725A627BC221B008465CF = {
 			isa = PBXGroup;
 			children = (
+				BBB725FC27BCC11A008465CF /* Accelerate.framework */,
+				BBB725FA27BCC11A008465CF /* AVFoundation.framework */,
+				BBB725FB27BCC11A008465CF /* CoreMedia.framework */,
 				BBB725B127BC221B008465CF /* PageCapture */,
 				BBB725CB27BC221E008465CF /* PageCaptureTests */,
 				BBB725D527BC221E008465CF /* PageCaptureUITests */,
 				BBB725B027BC221B008465CF /* Products */,
+				3DEAF7641FE9F3EAD450D949 /* Pods */,
+				95AD116FA613AEE6987363F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +171,17 @@
 				BBB725C027BC221E008465CF /* LaunchScreen.storyboard */,
 				BBB725C327BC221E008465CF /* Info.plist */,
 				BBB725BB27BC221B008465CF /* PageCapture.xcdatamodeld */,
+				BBB725E727BC25EC008465CF /* PageCapture-Bridging-Header.h */,
+				BB39305D27BCD238009DDD40 /* OpenCVWrapper.h */,
+				BB39305E27BCD238009DDD40 /* OpenCVWrapper.mm */,
+				BBE72A9727C20A7E0038B7AA /* UIImage+OpenCV.h */,
+				BBE72A9227C20A7D0038B7AA /* UIImage+OpenCV.mm */,
+				BBE72A9527C20A7E0038B7AA /* UIImage+Rotate.h */,
+				BBE72A9827C20A7E0038B7AA /* UIImage+Rotate.m */,
+				BB99992127BF6355002EB1F2 /* UIImage+Extension.swift */,
+				BBE72AA327C21E180038B7AA /* OpenCVSwiftLineDetection.pch */,
+				BBB6984527C4C5B7009CF2C5 /* imageReturnModel.h */,
+				BBB6984627C4C5B7009CF2C5 /* imageReturnModel.m */,
 			);
 			path = PageCapture;
 			sourceTree = "<group>";
@@ -137,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBB725DC27BC221E008465CF /* Build configuration list for PBXNativeTarget "PageCapture" */;
 			buildPhases = (
+				F58FB3D0347D767CE58CDE3F /* [CP] Check Pods Manifest.lock */,
 				BBB725AB27BC221B008465CF /* Sources */,
 				BBB725AC27BC221B008465CF /* Frameworks */,
 				BBB725AD27BC221B008465CF /* Resources */,
+				5AF41B991054CCD757B9712E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBB725DF27BC221E008465CF /* Build configuration list for PBXNativeTarget "PageCaptureTests" */;
 			buildPhases = (
+				F9049FD13BFAC26B8D042777 /* [CP] Check Pods Manifest.lock */,
 				BBB725C427BC221E008465CF /* Sources */,
 				BBB725C527BC221E008465CF /* Frameworks */,
 				BBB725C627BC221E008465CF /* Resources */,
@@ -172,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBB725E227BC221E008465CF /* Build configuration list for PBXNativeTarget "PageCaptureUITests" */;
 			buildPhases = (
+				1DAAAB72309E608ACE652F70 /* [CP] Check Pods Manifest.lock */,
 				BBB725CE27BC221E008465CF /* Sources */,
 				BBB725CF27BC221E008465CF /* Frameworks */,
 				BBB725D027BC221E008465CF /* Resources */,
+				43D1B77BC16298C0A8722CEE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,6 +276,7 @@
 				TargetAttributes = {
 					BBB725AE27BC221B008465CF = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					BBB725C727BC221E008465CF = {
 						CreatedOnToolsVersion = 13.1;
@@ -256,15 +335,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DAAAB72309E608ACE652F70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PageCapture-PageCaptureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43D1B77BC16298C0A8722CEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PageCapture-PageCaptureUITests/Pods-PageCapture-PageCaptureUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PageCapture-PageCaptureUITests/Pods-PageCapture-PageCaptureUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PageCapture-PageCaptureUITests/Pods-PageCapture-PageCaptureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF41B991054CCD757B9712E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PageCapture/Pods-PageCapture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PageCapture/Pods-PageCapture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PageCapture/Pods-PageCapture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F58FB3D0347D767CE58CDE3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PageCapture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9049FD13BFAC26B8D042777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PageCaptureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBB725AB27BC221B008465CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BBB725B727BC221B008465CF /* ViewController.swift in Sources */,
+				BB39305F27BCD238009DDD40 /* OpenCVWrapper.mm in Sources */,
 				BBB725BD27BC221B008465CF /* PageCapture.xcdatamodeld in Sources */,
+				BBB6984727C4C5B7009CF2C5 /* imageReturnModel.m in Sources */,
+				BB99992227BF6355002EB1F2 /* UIImage+Extension.swift in Sources */,
+				BBE72A9A27C20A7E0038B7AA /* UIImage+OpenCV.mm in Sources */,
 				BBB725B327BC221B008465CF /* AppDelegate.swift in Sources */,
 				BBB725B527BC221B008465CF /* SceneDelegate.swift in Sources */,
+				BBE72A9C27C20A7F0038B7AA /* UIImage+Rotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,12 +625,19 @@
 		};
 		BBB725DD27BC221E008465CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F55E7D88A809B03869B10E /* Pods-PageCapture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8WB89KH85G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/OpenCV\"",
+					"$(PROJECT_DIR)/PageCapture",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PageCapture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -451,6 +645,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +654,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Suleman.PageCapture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PageCapture/PageCapture-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,12 +663,19 @@
 		};
 		BBB725DE27BC221E008465CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E581133CF7EFF213CAF1ADEB /* Pods-PageCapture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8WB89KH85G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/OpenCV\"",
+					"$(PROJECT_DIR)/PageCapture",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PageCapture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -479,6 +683,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,6 +692,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Suleman.PageCapture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PageCapture/PageCapture-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -494,6 +700,7 @@
 		};
 		BBB725E027BC221E008465CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B362F8576BD0ED8B5395667F /* Pods-PageCaptureTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +726,7 @@
 		};
 		BBB725E127BC221E008465CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF9417710617BEDAEC89E68 /* Pods-PageCaptureTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +752,7 @@
 		};
 		BBB725E327BC221E008465CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BC81FCBAF7E547777252DF /* Pods-PageCapture-PageCaptureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +776,7 @@
 		};
 		BBB725E427BC221E008465CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FBAF6FE988C905109B0CD0 /* Pods-PageCapture-PageCaptureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
